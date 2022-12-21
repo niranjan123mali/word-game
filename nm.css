@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(29, 151, 151);
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    min-height: 80vh;
+}
+
+.page{
+
+    background-color: beige;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+.page h1{
+font-size: 35px;
+    border-bottom: 2px solid rgb(151, 33, 33);
+}
+
+.page h2{
+    font-size: 25px;
+        border-bottom: 2px solid rgb(188, 111, 111);
+        text-align: center;
+        letter-spacing: 10px;
+    }
+
+    .page h4{
+
+            border-bottom: 2px solid rgb(188, 111, 111);
+        padding: 10px;
+        }
+
+        .page input{
+
+            width: 90%;
+            padding: 10px;
+            border: 1px solid rgb(123, 41, 41);
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+
+        .page button{
+
+            width: 40%;
+            padding: 10px;
+            border: 1px solid rgb(123, 41, 41);
+            border-radius: 5px;
+             font-weight: bold;
+            font-size: 18px;
+        }
+
+        .page #refresh-btn{
+
+            background-color:hotpink
+            
+        }
+
+        .page #check-btn{
+
+            background-color: aqua;
+        }
